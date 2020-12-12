@@ -14,8 +14,8 @@ public class GridManager : MonoBehaviour
     {
         Vertical = (int)Camera.main.orthographicSize;
         Horizontal = Vertical * (Screen.width / Screen.height);
-        Columns = Horizontal * 1;
-        Rows = Vertical * 1;
+        Columns = Horizontal * 2;
+        Rows = Vertical * 2;
         Grid = new float[Columns, Rows];
         for (int i = 0; i < Columns; i++)
         {
